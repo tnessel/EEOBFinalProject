@@ -1,0 +1,30 @@
+#NEXUS
+[ID: 6136136525]
+begin taxa;
+	dimensions ntax=9;
+	taxlabels
+		Human
+		MacacaMulatta
+		MusMusculus
+		UromastyxAegyptia
+		GallusGallus
+		EmberizaVariabilis
+		Sundulatus
+		XenopusTropicalis
+		AnolisJubar
+		;
+end;
+begin trees;
+	translate
+		1	Human,
+		2	MacacaMulatta,
+		3	MusMusculus,
+		4	UromastyxAegyptia,
+		5	GallusGallus,
+		6	EmberizaVariabilis,
+		7	Sundulatus,
+		8	XenopusTropicalis,
+		9	AnolisJubar
+		;
+   tree con_50_majrule = [&U] (8[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:2.156955e-02[&length_mean=2.46888695e-02,length_median=2.15695500e-02,length_95%HPD={5.46224600e-05,5.39111100e-02}],(5[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:2.797954e-03[&length_mean=3.34363188e-03,length_median=2.79795400e-03,length_95%HPD={1.12101100e-06,8.15277600e-03}],6[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:1.623117e-02[&length_mean=1.66240161e-02,length_median=1.62311700e-02,length_95%HPD={1.06103400e-05,3.08787800e-02}])[&prob=8.06752554e-01,prob_stddev=2.51304054e-03,prob_range={8.04975566e-01,8.08529542e-01},prob(percent)="81",prob+-sd="81+-0"]:9.055726e-03[&length_mean=9.12834142e-03,length_median=9.05572600e-03,length_95%HPD={1.81768100e-03,1.57397000e-02}],(((1[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:1.362904e-03[&length_mean=1.53382457e-03,length_median=1.36290400e-03,length_95%HPD={9.79457200e-05,3.27857200e-03}],2[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:3.556640e-04[&length_mean=5.18002856e-04,length_median=3.55664000e-04,length_95%HPD={1.21522800e-07,1.55222500e-03}])[&prob=5.23322968e-01,prob_stddev=1.88478040e-03,prob_range={5.21990227e-01,5.24655709e-01},prob(percent)="52",prob+-sd="52+-0"]:1.026966e-03[&length_mean=1.35725149e-03,length_median=1.02696600e-03,length_95%HPD={1.13428100e-06,3.86457100e-03}],3[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:5.669042e-03[&length_mean=5.55081469e-03,length_median=5.66904200e-03,length_95%HPD={6.95602400e-06,9.69594500e-03}])[&prob=6.45713016e-01,prob_stddev=1.03662922e-02,prob_range={6.38382941e-01,6.53043092e-01},prob(percent)="65",prob+-sd="65+-1"]:1.077174e-02[&length_mean=1.24187465e-02,length_median=1.07717400e-02,length_95%HPD={1.05798800e-05,2.76260200e-02}],9[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:3.209850e-02[&length_mean=3.63543067e-02,length_median=3.20985000e-02,length_95%HPD={2.06030100e-05,8.22371400e-02}])[&prob=7.54331408e-01,prob_stddev=2.07325844e-02,prob_range={7.39671257e-01,7.68991559e-01},prob(percent)="75",prob+-sd="75+-2"]:2.411580e-02[&length_mean=2.31332174e-02,length_median=2.41158000e-02,length_95%HPD={4.06453400e-03,3.63525900e-02}],(4[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:2.775876e-03[&length_mean=3.14455169e-03,length_median=2.77587600e-03,length_95%HPD={4.33329100e-05,6.94665700e-03}],7[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:1.075212e-02[&length_mean=1.09528655e-02,length_median=1.07521200e-02,length_95%HPD={4.55379900e-03,1.85797200e-02}])[&prob=7.27898712e-01,prob_stddev=5.34021114e-03,prob_range={7.24122612e-01,7.31674811e-01},prob(percent)="73",prob+-sd="73+-1"]:7.101089e-03[&length_mean=7.17860361e-03,length_median=7.10108900e-03,length_95%HPD={2.24055600e-05,1.31700700e-02}]);
+end;
